@@ -1,8 +1,11 @@
 var express = require('express');
 var path = require('path');
+var bodyParser = require('body-parser');
+require('./config');
 
 var app = express();
 
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use("/", require('./web'));
