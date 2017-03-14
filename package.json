@@ -10,9 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.3",
     "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "mongoose": "^4.8.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
